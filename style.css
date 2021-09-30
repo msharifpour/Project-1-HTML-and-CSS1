@@ -1,0 +1,124 @@
+/** @format */
+:root {
+  --color-primary: #e1811f;
+  --color-secondary: #4758d6;
+  --color-dark: #201c1c;
+  --color-light: #eeeded;
+}
+
+html,
+body {
+  margin: 0;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 0.2em;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 3.2em;
+  margin-bottom: 0.4em;
+  color: var(--color-secondary);
+}
+
+nav {
+  background-color: var(--color-primary);
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--color-light);
+  line-height: 1.1em;
+}
+nav ul a {
+  color: var(--color-dark);
+  /* text-decoration: none; */
+  font-weight: bold;
+}
+nav ul a:hover {
+  color: var(--color-light);
+}
+
+nav h2 {
+  color: var(--color-secondary);
+}
+
+header h1 {
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid gray;
+}
+
+header {
+  margin-bottom: 2em;
+}
+footer {
+  margin-top: 2em;
+}
+
+figure {
+  padding: 0;
+  margin: 0 0 1em 0;
+  width: 60%;
+  background-color: lightgray;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  padding: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 1em 0;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+th {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.mb {
+  margin-bottom: 1.5em;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
